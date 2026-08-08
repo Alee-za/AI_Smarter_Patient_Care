@@ -741,6 +741,22 @@ The source code for this hackathon prototype may be distributed under the licens
 
 <p align="center">
 
+---
+### ScreenShots
+        
+<img width="1600" height="950" alt="01_overview" src="https://github.com/user-attachments/assets/c337a077-b4f7-4f28-a799-0082db0913ad" />
+
+<img width="1600" height="950" alt="02_patient_timeline" src="https://github.com/user-attachments/assets/244aa88a-3613-4c33-b6e7-2168cad68963" />
+
+<img width="1600" height="950" alt="05_evaluation" src="https://github.com/user-attachments/assets/afcd84e3-51c3-4f64-a71b-fbb848315de4" />
+
+<img width="1600" height="950" alt="04_data_quality" src="https://github.com/user-attachments/assets/db122186-1d10-48a1-8d83-461adde588e4" />
+
+<img width="1600" height="950" alt="03_evidence_qa" src="https://github.com/user-attachments/assets/5f8f5b7a-6d8c-47a0-8831-ba8265d7ef3d" />
+
+---
+
+<p align="center">
 ### 🩺 CareLens AI
 
 **Transparent AI for smarter healthcare data exploration.**
