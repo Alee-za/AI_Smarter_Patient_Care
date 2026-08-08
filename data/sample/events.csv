@@ -1,0 +1,35 @@
+subject_id,hadm_id,source_table,source_field,event_time,event_type,source_id,text
+1001,20001,admissions,admission_type,2026-01-05 08:10,admission,A1001,Admission type EMERGENCY; admission location Emergency Department
+1001,20001,transfers,intime,2026-01-05 11:20,transfer,T1001,Transfer event; care unit Medical Intensive Care Unit (MICU); event type transfer
+1001,20001,labevents,charttime,2026-01-05 12:00,laboratory,L1001,Lab item 50912; value 1.8; numeric value 1.8; unit mg/dL; flag abnormal
+1001,20001,labevents,charttime,2026-01-05 12:15,laboratory,L1002,Lab item 50809; value 7.2; numeric value 7.2; unit mEq/L; flag normal
+1001,20001,prescriptions,starttime,2026-01-05 13:00,medication,M1001,Medication example-antibiotic; route IV; dose 1 g; frequency every 8 hours
+1001,20001,chartevents,charttime,2026-01-05 14:00,icu_observation,C1001,ICU observation item 220045; value 98; numeric value 98; unit mmHg
+1001,20001,procedures_icd,chartdate,2026-01-05 18:00,procedure,P1001,Procedure code 0BH17EZ; version 10; sequence 1
+1001,20001,diagnoses_icd,chartdate,2026-01-05 18:30,diagnosis,D1001,Diagnosis code 4019; version 9; sequence 1
+1002,20002,admissions,admission_type,2026-01-06 09:00,admission,A1002,Admission type ELECTIVE; admission location Physician Referral
+1002,20002,labevents,charttime,2026-01-06 10:00,laboratory,L2001,Lab item 50931; value 13.4; numeric value 13.4; unit g/dL; flag normal
+1002,20002,labevents,charttime,2026-01-06 10:30,laboratory,L2002,Lab item 50912; value 0.9; numeric value 0.9; unit mg/dL; flag normal
+1002,20002,prescriptions,starttime,2026-01-06 12:00,medication,M2001,Medication example-analgesic; route PO; dose 500 mg; frequency once
+1003,20003,admissions,admission_type,2026-01-07 07:30,admission,A1003,Admission type EMERGENCY; admission location Emergency Department
+1003,20003,transfers,intime,2026-01-07 08:10,transfer,T3001,Transfer event; care unit Surgical Intensive Care Unit (SICU); event type transfer
+1003,20003,chartevents,charttime,2026-01-07 08:40,icu_observation,C3001,ICU observation item 220210; value 36.9; numeric value 36.9; unit C
+1003,20003,labevents,charttime,2026-01-07 09:00,laboratory,L3001,Lab item 50912; value 2.1; numeric value 2.1; unit mg/dL; flag abnormal
+1003,20003,labevents,charttime,2026-01-07 09:30,laboratory,L3002,Lab item 50813; value 15; numeric value 15; unit mEq/L; flag normal
+1004,20004,admissions,admission_type,2026-01-08 10:00,admission,A4001,Admission type URGENT; admission location Clinic
+1004,20004,diagnoses_icd,chartdate,2026-01-08 10:20,diagnosis,D4001,Diagnosis code 25000; version 9; sequence 1
+1005,20005,admissions,admission_type,2026-01-09 06:20,admission,A5001,Admission type EMERGENCY; admission location Emergency Department
+1005,20005,labevents,charttime,2026-01-09 07:00,laboratory,L5001,Lab item 50931; value 10.8; numeric value 10.8; unit g/dL; flag abnormal
+1005,20005,prescriptions,starttime,2026-01-09 07:30,medication,M5001,Medication example-anticoagulant; route IV; dose 5 mg; frequency once
+1005,20005,chartevents,charttime,2026-01-09 08:00,icu_observation,C5001,ICU observation item 220052; value 72; numeric value 72; unit bpm
+1006,20006,admissions,admission_type,2026-01-10 11:00,admission,A6001,Admission type ELECTIVE; admission location Transfer from hospital
+1006,20006,procedures_icd,chartdate,2026-01-10 12:30,procedure,P6001,Procedure code 0W3P8ZZ; version 10; sequence 1
+1007,20007,admissions,admission_type,2026-01-11 04:50,admission,A7001,Admission type EMERGENCY; admission location Emergency Department
+1007,20007,labevents,charttime,2026-01-11 05:10,laboratory,L7001,Lab item 50912; value 1.4; numeric value 1.4; unit mg/dL; flag normal
+1007,20007,labevents,charttime,2026-01-11 05:40,laboratory,L7002,Lab item 50931; value 11.2; numeric value 11.2; unit g/dL; flag abnormal
+1008,20008,admissions,admission_type,2026-01-12 14:00,admission,A8001,Admission type URGENT; admission location Emergency Department
+1008,20008,transfers,intime,2026-01-12 16:00,transfer,T8001,Transfer event; care unit Coronary Care Unit (CCU); event type transfer
+1009,20009,admissions,admission_type,2026-01-13 09:20,admission,A9001,Admission type ELECTIVE; admission location Physician Referral
+1010,20010,admissions,admission_type,2026-01-14 22:10,admission,A10001,Admission type EMERGENCY; admission location Emergency Department
+1010,20010,chartevents,charttime,2026-01-14 23:00,icu_observation,C10001,ICU observation item 220181; value 120; numeric value 120; unit mmHg
+1010,20010,labevents,charttime,2026-01-15 00:10,laboratory,L10001,Lab item 50912; value 3.0; numeric value 3.0; unit mg/dL; flag abnormal
